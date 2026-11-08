@@ -167,6 +167,11 @@ a {
 	.row {
 		grid-template-columns: repeat(4, 1fr);
 	}
+
+	.card:nth-child(5),
+	.card:nth-child(6) {
+		grid-column: span 2;
+	}
 }
 
 /* Da qui in giù scrivi tu: le colonne con Grid e il banner */
